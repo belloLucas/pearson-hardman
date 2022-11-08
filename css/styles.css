@@ -288,3 +288,82 @@ i {
 .data .text {
   text-transform: uppercase;
 }
+
+/* testimonials */
+
+#testimonials {
+  display: flex;
+  align-items: center;
+}
+
+#testimonial-information {
+  padding: 3rem;
+}
+
+.author {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author .author-name {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.author .author-job {
+  color: var(--secondary-text-color);
+}
+
+.author img {
+  width: 100px;
+  height: 100px;
+}
+
+/* employees */
+
+#team {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+#team h2 {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 3rem;
+  text-align: center;
+  z-index: 2;
+}
+
+#team h2 span {
+  color: var(--main-color);
+}
+
+#team .square {
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: -20px;
+  margin-left: -50px;
+  background-color: var(--tertiary-color);
+}
+
+.employees {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.employee-name {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
